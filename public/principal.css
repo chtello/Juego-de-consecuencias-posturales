@@ -7,22 +7,23 @@ body {
 }
 
 .navbar {
-    background-color: #a8dadc;
-    padding: 10px 20px;
+    color: #000;
     display: flex;
     align-items: center;
-    border-radius: 50px; 
-    margin: 20px;
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
     color: white;
-    padding: 10px;
 }
-
-.logo img {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
+.custom-navbar{
+    background-color: black;
+}
+.titulo{
+    color: black;
+}
+.ImgLogo {
+    width: 12%;
+    height: 12%;
     border-radius: 45%;
 }
 
@@ -32,47 +33,18 @@ body {
     margin-top: 2%;
     font-size: 24px;
     color: #1d3557
-    
-    
 }
 
 .info, .juego {
-  
-    padding: 20px;
-    margin: 20px;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
     background-color: #f1faee;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.info h2, .juego h2 {
-    color: #457b9d;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-.juego {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.logo img {
-    width: 50px;
-    margin-right: 10px;
-}
-
-.info {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.juego {
-    text-align: center;
-    margin-top: 50px;
-}
 
 .container {
     display: flex;
@@ -80,30 +52,4 @@ p {
     align-items: center;
     margin-top: 50px;
     position: relative;
-}
-
-.column {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.draggable {
-    width: 100px;
-    cursor: pointer;
-}
-
-.droppable {
-    background-color: #e0e0e0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-}
-
-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Detrás de las imágenes y textos */
 }
